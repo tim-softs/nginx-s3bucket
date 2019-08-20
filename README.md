@@ -6,17 +6,19 @@ Nginx, serving helloWorld index.html originally stored in S3 bucket.
 - Solution should be consistent and reproducible (no manual steps)
 
 using of some AWS-resources:
-* [AWS Auto Scaling Group] - to do
-* [AWS Lambda function] - to do
-* [AWS S3 bucket] - done
-* [AWS S3 bucket policy] - not necessary thanks to the IAM policy and IAM role
-* [Amazon AMI image] - done
-* [EBS volume] - done
-* [EC2 KeyPair] - done
-* [EC2 instance] - done
-* [IAM policy] - done
-* [IAM role] - done
-* [IAM user] - done
+
+* AWS Auto Scaling Group  - to do
+* AWS Lambda function - to do
+* `AWS S3 bucket`  - done
+* `AWS S3 bucket policy`  - not necessary thanks to the IAM policy and IAM role
+* `Amazon AMI image`  - done
+* `EBS volume`  - done
+* `EC2 KeyPair`  - done
+* `EC2 instance`  - done
+* `IAM policy`  - done
+* `IAM role`  - done
+* `IAM user` - done
+
 
 ### Prerequisites
 
@@ -40,7 +42,8 @@ using of some AWS-resources:
 
 To clean up the resources created by these templates, just run `terraform destroy`.
 
-## To Do (preferably until August 23, 2019)
+
+# To Do (preferably until August 23, 2019)
 
 
 1. Define the `autoscaling group` with a minimum of instances = 1, which automatically creates a new instance, if you force to terminate the old
